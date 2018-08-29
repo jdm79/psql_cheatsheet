@@ -18,7 +18,8 @@
 {"id"=>"1", "url"=>"http://makers.tech"}
 {"id"=>"2", "url"=>"http://www.destroyallsoftware.com"}
 {"id"=>"3", "url"=>"http://www.google.com"}
- => #<PG::Result:0x007fc9c7830cc8 status=PGRES_TUPLES_OK ntuples=3 nfields=2 cmd_tuples=3> ```
+ => #<PG::Result:0x007fc9c7830cc8 status=PGRES_TUPLES_OK ntuples=3 nfields=2 cmd_tuples=3> 
+ ```
 
 # Using psql
 ```
@@ -26,4 +27,5 @@ $psql # gets us into psql
 >\l # shows us the databases of that user (normally me - localhost)
 >CREATE DATABASE [databasename] # creates a database named ‘whatever’
 >\c [database] # connects you to whatever database you specify
->\dt # display tables of that db```
+>\dt # display tables of that db
+```

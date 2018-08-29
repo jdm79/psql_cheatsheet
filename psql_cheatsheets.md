@@ -25,7 +25,9 @@
 ```
 $psql # gets us into psql
 >\l # shows us the databases of that user (normally me - localhost)
->CREATE DATABASE [databasename] # creates a database named ‘whatever’
->\c [database] # connects you to whatever database you specify
+>CREATE DATABASE <databasename> # creates a database named ‘whatever’
+>\c <databasename> # connects you to whatever database you specify
 >\dt # display tables of that db
+>CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60)); # whilst connected to a db - creates a table with two columns, first auto ascending id, second 60 characters
+>\d <tablename> # displays columns of specified table
 ```

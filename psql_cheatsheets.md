@@ -1,4 +1,4 @@
-# using ‘pg’ gem on irb
+### using ‘pg’ gem on irb
 ```
 >require ‘pg'
 
@@ -20,8 +20,8 @@
 {"id"=>"3", "url"=>"http://www.google.com"}
  => #<PG::Result:0x007fc9c7830cc8 status=PGRES_TUPLES_OK ntuples=3 nfields=2 cmd_tuples=3> 
  ```
-
-# Using psql
+# REMEMBER THE SEMI-COLON FOR SQL QUERIES, JAAAAAAAAAMES
+### Using psql
 ```
 $psql # gets us into psql
 >\l # shows us the databases of that user (normally me - localhost)

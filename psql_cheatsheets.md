@@ -32,4 +32,12 @@ $psql # gets us into psql
 >\d <tablename> # displays columns of specified table
 >\dn # lists all the schemas
 >\x # shows us our tables in pretty mode
+
+# update one value in the column
+>INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com'); 
+or
+>INSERT INTO bookmarks (id) VALUES (1); 
+
+# update it all
+>INSERT INTO bookmarks VALUES(1, 'http://www.makersacademy.com');
 ```

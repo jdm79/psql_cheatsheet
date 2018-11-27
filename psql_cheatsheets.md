@@ -20,7 +20,6 @@
 {"id"=>"3", "url"=>"http://www.google.com"}
  => #<PG::Result:0x007fc9c7830cc8 status=PGRES_TUPLES_OK ntuples=3 nfields=2 cmd_tuples=3> 
  ```
-# REMEMBER THE SEMI-COLON FOR SQL QUERIES, JAAAAAAAAAMES
 ### Using psql
 ```
 $psql # gets us into psql
